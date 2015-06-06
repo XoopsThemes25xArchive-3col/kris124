@@ -1,0 +1,306 @@
+/* theme by Kris - http://www.xoofoo.org
+Xoops French Team : http://www.frxoops.org
+theme name and version : kris124 v0.1 */
+
+@import url(forms.css);
+@import url(blocks.css);
+@import url(content.css);
+
+html {
+	margin-bottom: 				1px;
+	height: 							100%! important;
+}
+body {
+	padding : 						0;
+	margin: 							0;
+	background : 					#fff url(img/logo.png) no-repeat fixed bottom left; ;
+	font-size: 						10pt;
+	font-family: 					"Century Gothic", Verdana, Geneva, Arial, Helvetica, sans-serif;
+	color: 							#999;
+	text-align: 					center;
+	height: 							100%! important;
+}
+table { width: 					100%;}
+table td {
+	padding: 						0;
+	border-width: 					0;
+	vertical-align: 				top;
+}
+#xo-canvas {
+	border: 							#ccc 1px solid;
+	margin: 							auto;
+	width: 							790px;
+	position: 						relative;
+	top: 								25px;
+	background-color: 			transparent;
+	text-align: 					left;
+}
+body.theme-dialog #xo-canvas {
+	margin:							0px 6px;
+}
+
+/* ---------- Bannières ---------- */
+#xo-banner {
+	height: 							85px;
+}
+#xo-banner.commercial {
+	height:							116px;
+}
+body.theme-dialog #xo-banner {
+	padding-top:					6px;
+	padding-left:					10px;
+	height:							48px;
+}
+/* Keep the ad img centered by using auto-margins and centeredcontainer/leftalignedchild on MSIE */
+#xo-banner-ad {
+	position:						absolute;
+	top:								50px;
+	right:							10px;
+}
+#xo-banner-ad object, #xo-banner-ad img {
+	display:							block;
+}
+
+/*---------------------- Nom du site dans le header ----------------------------*/
+#xo-site-title {
+	position: 						relative;
+	top: 								10px;
+	padding: 						10px 0 0 20px;
+	font-size:						2.2em;
+	font-weight:					bold;
+	background: 					transparent;
+}
+a#xo-site-title {}
+a:hover#xo-site-title {
+	color: 							#99cc00 !important;
+	background-color: 			inherit;
+	text-decoration: 				none;
+}
+#xo-site-title.commercial {
+	padding: 						0 0 0 0px;
+	margin: 							0 10px;
+ }
+ #xo-site-title .commercial a:hover {
+	color:							#999 !important;
+	background-color: 			inherit;
+}
+/*----------------------- titre du slogan du site dans le header ------------------------*/
+#xo-site-slogan {
+	position: 						relative;
+	top: 								10px;
+	color: 							#666;
+	font-style: 					italic;
+	padding-left: 					70px;
+	background-color:				transparent;
+}
+#xo-site-slogan.commercial {}
+
+/*------------------------ Affichage du logo ----------------------------*/
+#xo-main-logo {
+	position: 						relative;
+	top: 								15px;
+	color:							#999;
+	padding-left: 					10px;
+	background: 					transparent;
+	}
+#xo-main-logo.commercial {}
+/*-------- Affichage des champs de saisie dans le header-----------*/
+#xo-banner form {
+	margin:							0px;
+	display:							inline;
+}
+#xo-banner input {
+	width:							8em;
+	background-color: 			transparent;
+	margin:							0px 0px 0px 2px;
+}
+
+/*============== Styles pour l'include userbar.html =================*/
+#xo-userbar {
+	color:							#999;
+	position:						absolute;
+	top: 								5px;
+	right:							1em;
+	text-align:						right;
+	font-size: 						.9em;
+	background-color: 			transparent;
+}
+#xo-userbar form {
+	display:							inline;
+	padding:							0;
+}
+#xo-userbar button {
+	margin: 							0 -3px;
+	border:							0 none;
+	padding:							0;
+	background:						transparent none;
+}
+#xo-userbar button img {
+	margin-top:						10px;
+	width: 							12px;
+	height: 							12px;
+ }
+#xo-userbar img {
+	width: 							18px;
+	height: 							18px;
+}
+#xo-userbar input {
+	color:							#FF8C00;
+	background:						#fff url(img/login.jpg) no-repeat;
+	border: 							0 !important;
+	margin: 							0 5px 0 0;
+	height: 							14px;
+	width: 							115px;
+}
+
+#xo-userbar a {}
+#xo-userbar a:hover {
+	color: 							#99cc00;
+	text-decoration: 				none;
+	background-color: 			inherit;
+}
+#xo-uname {
+	color:							#FF8C00;
+	font-size:						1.1em;
+	font-weight:					bold;
+	background-color:				inherit;
+}
+
+/*============= Style pour l'include globalnav.html ================*/
+#xo-globalnav {
+	color:							#99cc00;
+	margin:							0;
+	padding: 						2px 45px 2px;
+	min-height:						20px;
+	font-size:						1.1em;
+	font-weight: 					bold;
+	list-style-type:				none;
+}
+* html #xo-globalnav { height: 20px; }
+
+#xo-globalnav .x2-label {
+	display:							none;
+}
+#xo-globalnav li {
+	font-size: 						.9em;
+	display:							inline;
+	margin:							0px;
+	padding-left:					.5em;
+	padding-right:					.5em;
+}
+#xo-globalnav a {
+	color:							#99cc00;
+	text-decoration:				none;
+	background: 					inherit;
+}
+#xo-globalnav a:hover {
+	color:							#FF8C00;
+	background-color: 			inherit;
+	border-bottom: 				#999 2px dotted !important;
+}
+
+/*=============== Affichage Pied de page - Footer  ====================*/
+#xo-footer {
+	text-align:						left;
+	padding: 						0.5em 0 0 1em;
+	font-size:						.8em;
+	margin: 							25px 0px 15px;
+	position: 						relative;
+}
+body.theme-dialog #xo-footer { padding: .2em .5em; font-size:	.8em;}
+#xo-footer a {}
+#xo-footer a:hover {
+	color: 							#99cc00;
+	text-decoration: 				none;
+	background-color:				inherit;
+	border-bottom: 				#999 1px dotted;
+}
+span#design {
+	float: 							right;
+	line-height: 					15px;
+	font-weight: 					normal;
+	text-decoration: 				none;
+	background-color:				transparent;
+}
+#xo-footer .rss {
+	display:block;
+	float: 							right;
+	padding: 						5px 10px 20px 20px;
+	background-color: 			transparent;
+}
+#xo-footer .rss a:hover {	text-decoration: none;}
+/*================= Zone de contenu ===================*/
+#xo-canvas-content {
+	color:							#999;
+	font-size: 						.9em;
+	padding:							12px;
+	background-color: 			inherit;
+}
+#xo-page {}
+#xo-canvas-rightcolumn {padding: .5em;}
+#xo-content {
+	clear:							both;
+	padding:							.5em;
+	margin:							0px;
+}
+
+#xo-logger-output {font-size:	.8em;}
+
+/*========== Menu principal dans bloc =============*/
+#mainmenu a {
+	display: 						block;
+	margin: 							0;
+	padding: 						1px;
+	font-weight: 					500;
+}
+#mainmenu a:hover {
+	text-decoration:				none !important;
+	color: 							#99cc00;
+	font-weight: 					bold;
+	text-transform: 				uppercase;
+	margin-left: 					1em;
+	border-bottom: 				0 !important;
+	background-color: 			inherit;
+}
+#mainmenu a.menuTop, #mainmenu a.menuMain {padding-left: 8px; }
+#mainmenu a.menuSub {
+	color:							#99cc00;
+	padding-left: 					20px;
+	font-size:						.8em;
+	font-style: 					italic;
+	background-color:				inherit;
+}
+#mainmenu a.menuSub:hover {
+	color:							#FF8C00;
+	background-color: 			inherit;
+	text-decoration: 				none;
+	text-transform:				none;
+}
+
+/*============ Menu utilisateur dans bloc ============*/
+#usermenu a {
+	display: 						block;
+	margin: 							0;
+	padding: 						2px;
+	color:							#999 !important;
+	font-weight: 					normal;
+	font-size: 						0.8em;
+	line-height: 					1em;
+	background-color: 			inherit;
+}
+#usermenu a:hover {
+	color:							#FF8C00 !important;
+	padding-left: 					.5em;
+	font-style: 					italic;
+	background-color: 			inherit;
+	border-bottom: 				0;
+}
+#usermenu a.menuTop {}
+#usermenu a.highlight {
+	background-color: 			#333;
+	color: 							#ccc;
+}
+
+/*=========== Règles nécessaires pour les anciens templates des modules ============*/
+#usermenu a, #mainmenu a {	display: block;}
+.xo-canvas-column .menuSub { padding-left: 1em;}

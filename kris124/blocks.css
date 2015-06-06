@@ -1,0 +1,127 @@
+/*========== listes dans les colonnes ==========*/
+.xo-canvas-column ul {
+	list-style-type:				none;
+	padding:							.5em;
+	margin:							0px;
+}
+.xo-canvas-column ul ul {
+	padding-top:					0em;
+	padding-bottom:				0em;
+	padding-left:					1em;
+
+}
+/* ====== format des cellules dans les colonnes ========*/
+.xo-canvas-column .outer, .xo-canvas-column .outer td {}
+.xo-canvas-column .outer, .xo-canvas-column .outer img {
+	border: 							0 !important;
+	padding:							0;
+	margin:							0;
+}
+/*===== Styles Colonne de Gauche =======*/
+#xo-canvas-leftcolumn {
+	border-right:					1px solid #efefef;
+}
+#xo-canvas-leftcolumn .xo-block {
+	padding-top:					4px;
+	margin-right:					11px;
+	margin-bottom:					10px;
+	background-color: 			transparent;
+}
+#xo-canvas-leftcolumn .xo-blocktitle {
+	padding-left:					6px;
+	padding-bottom:				5px;
+	background-color: 			inherit;
+	color:							#666;
+	font-size:						1.2em;
+	font-weight:					bold;
+	text-align: 					center;
+}
+#xo-canvas-leftcolumn .xo-blockcontent {
+	min-height:						60px;
+	padding:							2px 8px 2px;
+	background-color: 			inherit;
+}
+* html #xo-canvas-leftcolumn .xo-blockcontent { height: 110px;}
+#xo-canvas-leftcolumn .xo-blockcontent a {}
+#xo-canvas-leftcolumn .xo-blockcontent a:hover {
+	text-decoration:				none;
+	border-bottom: 				#999 1px dotted;
+}
+#xo-canvas-leftcolumn img {
+	border: 							1px solid #999;
+	padding: 						3px;
+	margin: 							3px 3px 0 7px;
+}
+#xo-canvas-leftcolumn img:hover {border: 1px solid #333;}
+
+
+#xo-canvas-leftcolumn form {
+	background-color: 			transparent;
+}
+
+/*======== Styles Colonne de Droite ========*/
+#xo-canvas-rightcolumn {
+	border-left:					1px solid #efefef;
+	background-color: 			inherit;
+}
+#xo-canvas-rightcolumn a {
+}
+#xo-canvas-rightcolumn a:hover {
+	background-color:				inherit;
+	text-decoration:				none;
+	border-bottom: 				#999 1px dotted;
+}
+#xo-canvas-rightcolumn .xo-blocktitle {
+	font-size:						1.2em;
+	font-weight:					bold;
+	color:							#666;
+	background-color: 			inherit;
+	text-align:						center;
+}	
+#xo-canvas-rightcolumn .xo-blockcontent {
+	padding:							.5em;
+}
+#xo-canvas-rightcolumn img {
+	border: 							1px solid #ccc;
+	padding: 						3px;
+	margin: 							3px 3px 0 7px;
+}
+#xo-canvas-rightcolumn img:hover {border: 1px solid #333;}
+/* ======= Styles du "Contenu Centre" ===========*/
+#xo-page .xo-blockszone > .xo-block {}
+.xo-block ul {
+	margin:							0px;
+	padding:							0px;
+	list-style-type:				none;
+}
+#xo-page .xo-blockszone .xo-blocktitle {
+	font-size:						1.2em;
+	font-weight:					bold;
+	color:							#99cc00;
+	margin:							0px .5em;
+	padding:							0px .25em;
+	border-bottom:					1px dotted #ccc;
+	background-color: 			inherit;
+}
+#xo-page .xo-blockszone .xo-blockcontent {
+	padding:							.5em;
+	text-align: 					justify;
+	background-color: 			inherit;
+}
+#xo-page .xo-blockszone .xo-blockcontent img {
+	border: 							1px solid #ccc !important;
+	padding: 						3px;
+	margin: 							3px 3px 0 7px;
+}
+#xo-page .xo-blockszone .xo-blockcontent img:hover {
+	border: 							1px solid #333 !important;
+	background-color: 			#fff !important;
+}
+#xo-page .xo-blockszone .xo-blockcontent a {}
+#xo-page .xo-blockszone .xo-blockcontent a:hover {
+	text-decoration:				none;
+	border-bottom: 				#999 1px dotted;
+}
+
+
+

@@ -1,0 +1,48 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"
+><html	xmlns="http://www.w3.org/1999/xhtml" lang="<{$xoops_langcode}>" xml:lang="<{$xoops_langcode}>">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=<{$xoops_charset}>" />
+	<meta http-equiv="Refresh" content="<{$time}>; url=<{$url}>" />
+	<title><{$xoops_sitename}></title>
+	
+<style type="text/css">
+body {
+	margin:				80px 40px;
+	padding:			0px;
+	background-color:	#fff;
+	font-size:			12pt;
+	font-family:		"Century Gothic", Verdana, Geneva, Arial, Helvetica, sans-serif;
+	text-align:			center;
+}
+#notreload a {
+	color:				#FF8C00;
+	font-weight:		bold;
+	text-decoration: 	none;
+}
+	
+
+#message {
+	padding:			1em 1em 1em;
+	background-color:	inherit;
+	color:				#999;
+	min-height:			60px;
+	font-size:			1.4em;
+	font-weight:		bold;
+}
+#notreload {
+	background:			inherit;
+	color:				#99cc00;
+	padding-top:		2px;
+	height:				28px;
+	font-size:			1.1em;
+}
+</style>
+</head>
+<body>
+<div id="message"><{$message}></div>
+<div id="notreload"><{$lang_ifnotreload}></div>
+
+<{if $xoops_logdump != ''}><div><{$xoops_logdump}></div><{/if}>
+</body>
+</html>
